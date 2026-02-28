@@ -24,34 +24,44 @@ export default function About() {
 
             <div className="relative space-y-4">
               <p className="text-white">
-                Hello! I'm Nazmul Hossain, a passionate JavaScript developer
-                specializing in creating innovative web solutions and
-                user-friendly interfaces.{" "}
-                <span className="font-bold text-white">
-                  As the creator of the OlovaJS UI Framework
-                </span>
-                , I'm dedicated to simplifying development workflows.
+                Hello! I'm Alvaro Alanis, a passionate Front-End/AI developer
+                specializing in creating innovative solutions and user-friendly
+                interfaces.{" "}
               </p>
               <p className="text-white">
-                My focus is on making web development faster, easier, and
-                accessible to all developers. Currently, I'm expanding into
-                backend development to grow as a full-stack developer and create
-                seamless, robust web applications.
+                I’m a Software Engineer with over five years of experience
+                designing, developing, and optimizing scalable applications
+                across warehouse management and web platforms. Currently working
+                as a Full Stack Developer. I have strong experience in database
+                optimization, API development, and deploying applications
+                through CI/CD pipelines. With a background in Microsoft Dynamics
+                Business Central and custom warehouse automation solutions, I
+                enjoy solving complex operational challenges through clean,
+                efficient code. I’m passionate about continuous learning,
+                improving development practices, and building technology that
+                creates measurable impact.
               </p>
 
               <div className="pt-6">
                 <blockquote className="border-l-4 border-gray-300 pl-4">
                   <p className="text-white">
-                    I'm a lifelong learner and innovator, driven by a desire to
-                    contribute to the developer community with new ideas and
-                    tools that deliver real value. As the creator of OlovaJS,
-                    I'm pushing the boundaries of JavaScript frameworks to
-                    empower developers worldwide.
+                    In addition to my enterprise and warehouse management
+                    experience, I developed a computer vision–based lumber
+                    counting application that leverages YOLO object detection to
+                    automate inventory analysis. The system uses a React
+                    frontend with a FastAPI backend to process uploaded images
+                    and detect lumber pieces in real time. I implemented
+                    threshold controls, dynamic rendering of detection results,
+                    and optimized backend prediction workflows to improve
+                    accuracy and performance. This project strengthened my
+                    experience in integrating AI models into production-ready
+                    web applications and reinforced my ability to bridge machine
+                    learning systems with intuitive, user-focused interfaces.
                   </p>
 
                   <div className="mt-6 space-y-3">
                     <cite className="block font-medium text-white">
-                      Nazmul Hossain, Creator of
+                      Alvaro Alanis, Creator of
                     </cite>
                     <div className="flex items-center gap-2">
                       <img
@@ -61,7 +71,7 @@ export default function About() {
                         height="20"
                         width="auto"
                       />
-                      <span className="text-white">OlovaJS</span>
+                      <span className="text-white">LumberAI</span>
                     </div>
                   </div>
                 </blockquote>
