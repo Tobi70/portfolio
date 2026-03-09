@@ -12,7 +12,7 @@ const projects = [
     link: "https://images.squarespace-cdn.com/content/v1/5916c81cf7e0ab8d478806df/1628082952984-IE3Q5WG0B3R1DS3I8RHG/mediterranean-salmon-platter-recipe.jpg",
     color: "#5196fd",
     githubLink: "https://github.com/Tobi70/Mimir",
-    liveLink: "https://olova.js.org/",
+    liveLink: "",
   },
   {
     title: "Lumber AI ",
@@ -22,7 +22,7 @@ const projects = [
     link: "https://files.catbox.moe/bblknb.png",
     color: "#8f89ff",
     githubLink: "https://github.com/Tobi70/LumberAI",
-    liveLink: "https://codervai.vercel.app",
+    liveLink: "",
   },
 ];
 
@@ -42,7 +42,7 @@ export default function Projects() {
              screen and (width: 1368px) and (height: 769px) {
         .project-card {
           scale: 0.85;
-          margin-top: -5vh;
+          margin-top: -5/vh;
         }
         .project-container {
           height: 90vh;
@@ -55,6 +55,7 @@ export default function Projects() {
     const checkResolution = () => {
       const isTargetResolution =
         window.innerWidth >= 1360 &&
+
         window.innerWidth <= 1370 &&
         window.innerHeight >= 760 &&
         window.innerHeight <= 775;

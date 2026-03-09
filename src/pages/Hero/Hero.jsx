@@ -211,7 +211,8 @@ const profile = {
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
                 <p className="text-base sm:text-xl text-gray-300/90 leading-relaxed">
-                  JavaScript lover 🚀 | LumberAI creator 🔧 | Crafting solutions for the future 💻✨
+                  JavaScript lover 🚀 | LumberAI creator 🔧 | Crafting solutions
+                  for the future 💻✨
                 </p>
               </div>
 
@@ -237,7 +238,15 @@ const profile = {
                 >
                   <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 border border-gray-700/50 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-gray-800 group-hover:to-gray-700">
                     <span className="relative flex items-center justify-center gap-2 text-gray-300 font-medium group-hover:text-white">
-                      <span>Get Resume</span>
+                      <span>
+                        {" "}
+                        <a
+                          href="src\assets\images\SoftwareEngineeringResume.pdf"
+                          download={"AlvaroAlanisResume.pdf"}
+                        >
+                          Get Resume
+                        </a>
+                      </span>
                       <i className="fas fa-envelope transform transition-all duration-300 group-hover:rotate-12"></i>
                     </span>
                   </span>
