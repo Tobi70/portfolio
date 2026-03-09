@@ -6,7 +6,8 @@ import PropTypes from "prop-types";
 const projects = [
   {
     title: "Mimir",
-    description: "Recipe look up app based on ingredients inputs from the user",
+    description:
+      "A recipe app based on user-entered ingredients helps people discover meals they can cook using the ingredients they already have at home.",
     src: "rock.jpg",
     link: "https://images.squarespace-cdn.com/content/v1/5916c81cf7e0ab8d478806df/1628082952984-IE3Q5WG0B3R1DS3I8RHG/mediterranean-salmon-platter-recipe.jpg",
     color: "#5196fd",
