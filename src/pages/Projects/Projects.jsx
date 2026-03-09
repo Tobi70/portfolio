@@ -20,9 +20,9 @@ const projects = [
     src: "tree.jpg",
     link: "https://files.catbox.moe/bblknb.png",
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
+    githubLink: "https://github.com/Tobi70/LumberAI",
     liveLink: "https://codervai.vercel.app",
-  }
+  },
 ];
 
 export default function Projects() {
