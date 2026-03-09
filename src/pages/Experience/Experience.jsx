@@ -1,5 +1,4 @@
-import React from "react";
-import { Code2, Activity, Cpu, Layers, Network, Binary } from "lucide-react";
+import { Code2, Layers, Network} from "lucide-react";
 
 const ExperienceCard = ({
   title,
@@ -55,27 +54,27 @@ const ExperienceSection = () => {
   const experiences = [
     {
       icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
+      title: "Full Stack Developer",
+      company: "Aramil Maderas",
+      period: "2023 - 2025",
       description:
-        "Worked on developing and customizing WordPress websites for clients globally.",
+        "Created a customer focused landing page for potential clients better viewing of companies products",
     },
     {
       icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
+      title: "Junior Developer",
+      company: "Camelot 3PL Software",
       period: "2021 - 2023",
       description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
+        "Enhanced and customized WMS system for warehouse mangement solutions using Microsoft Dynamics Nav",
     },
     {
       icon: Code2,
-      title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
-      period: "2023 - Present",
+      title: "Student Developer",
+      company: "Capstone Project",
+      period: "2020",
       description:
-        "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
+        "Created a recipe finding app based on ingredients the user currently had in their home",
     },
   ];
 

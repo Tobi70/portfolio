@@ -5,45 +5,24 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
-    description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
+    title: "Mimir",
+    description: "Recipe look up app based on ingredients inputs from the user",
     src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+    link: "https://images.squarespace-cdn.com/content/v1/5916c81cf7e0ab8d478806df/1628082952984-IE3Q5WG0B3R1DS3I8RHG/mediterranean-salmon-platter-recipe.jpg",
     color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
+    githubLink: "https://github.com/Tobi70/Mimir",
     liveLink: "https://olova.js.org/",
   },
   {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
+    title: "Lumber AI ",
     description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
+      "Image detection software to improve cycle counts and inventory management for lumber mills",
     src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+    link: "https://files.catbox.moe/bblknb.png",
     color: "#8f89ff",
     githubLink: "https://github.com/seraprogrammer/portfolio",
     liveLink: "https://codervai.vercel.app",
-  },
-  {
-    title: "🚀 CodeWhisperer",
-    description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
-    color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
-  },
-  {
-    title: "CodeKori 🔥",
-    description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
-    color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
-  },
+  }
 ];
 
 export default function Projects() {
@@ -115,7 +94,7 @@ export default function Projects() {
                 range={[i * 0.25, 1]}
                 targetScale={targetScale}
                 githubLink={project.githubLink}
-                liveLink={project.liveLink}
+                // liveLink={project.liveLink}
               />
             );
           })}
@@ -135,7 +114,7 @@ function Card({
   range,
   targetScale,
   githubLink,
-  liveLink,
+  // liveLink,
 }) {
   const container = useRef(null);
   const scale = useTransform(progress, range, [1, targetScale]);
@@ -239,7 +218,7 @@ function Card({
                   </span>
                 </motion.a>
 
-                {/* Live Link */}
+                {/* Live Link 
                 <motion.a
                   href={liveLink}
                   target="_blank"
@@ -270,6 +249,7 @@ function Card({
                     Live
                   </span>
                 </motion.a>
+                */}
               </div>
             </div>
           </div>

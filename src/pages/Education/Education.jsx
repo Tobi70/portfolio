@@ -1,11 +1,9 @@
-import React, { useState } from "react";
-import EducationLoader from "@/components/ui/EducationLoader";
+import { useState } from "react";
+
 import {
-  Star,
   Award,
   Calendar,
   BookOpen,
-  GraduationCap,
   Trophy,
 } from "lucide-react";
 import { motion } from "framer-motion";
@@ -15,24 +13,32 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      degree: "Associate in Science",
+      school: "Blue Ridge Communicty College",
       mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      year: "2014-2016",
+      achievements: ["GPA: 3.6", "Subject: Science"],
+      skills: ["Pre-Calc", "Calc I", "Calc II"],
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
+        "General education and core mathematics courses completed to transfer credits to university",
     },
     {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      degree: "Bachelor of Science in Computer Science ",
+      major: "Software Engineer",
+      minor: "Mathematics",
+      school: "UNC of Charlotte",
       mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      year: "2017-2020",
+      achievements: ["GPA: 3.1"],
+      skills: [
+        "Linear Algebra",
+        "Data Stuctures & Algortithms",
+        "Operating Syst & Networking",
+        "Web Development",
+        "Software Engineering",
+      ],
       description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "An undergraduate student who has completed a Computer Science degree with a major in Software Engineering and a minor in Mathematics, equipped with strong problem-solving skills and a solid foundation in software development and analytical thinking.",
     },
   ];
 
@@ -78,7 +84,7 @@ const EducationSection = () => {
             Educational Journey
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto text-lg">
-            Discover how academic excellence shapes innovative thinking and
+            Student developer striving for excellence, innovative thinking and
             professional growth.
           </p>
         </motion.div>
